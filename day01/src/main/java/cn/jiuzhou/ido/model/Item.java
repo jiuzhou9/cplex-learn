@@ -18,4 +18,6 @@ public class Item {
     private double purchaseCost;
 
     private double demand;
+
+    private double capacityCost;
 }
