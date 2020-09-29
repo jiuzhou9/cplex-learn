@@ -15,8 +15,8 @@ import ilog.cplex.IloCplex;
 public class Demo03 {
 
     static Item itemA = new Item().setName("A").setProductCost(1).setPurchaseCost(2).setDemand(3).setCapacityCost(0.1);
-    static Item itemA1 = new Item().setName("A 子件").setProductCost(Double.MAX_VALUE).setPurchaseCost(1).setDemand(6).setCapacityCost(0);
-    static Item itemB = new Item().setName("B").setProductCost(1).setPurchaseCost(Double.MAX_VALUE).setDemand(1).setCapacityCost(0.2);
+    static Item itemA1 = new Item().setName("A 子件").setProductCost(0).setPurchaseCost(1).setDemand(6).setCapacityCost(0);
+    static Item itemB = new Item().setName("B").setProductCost(1).setPurchaseCost(1).setDemand(1).setCapacityCost(0.2);
     static Item itemC = new Item().setName("C").setProductCost(1).setPurchaseCost(2).setDemand(1).setCapacityCost(1);
 
     static Item[] items = {itemA, itemA1, itemB, itemC};
